@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibrationDate>"Sa 24 Dez 2022 13:43:55 CET"</calibrationDate>
+<framesCount>29</framesCount>
+<cameraResolution>
+  1920 1080</cameraResolution>
+<cameraMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.4880649544085052e+03 0. 1.0326503805106929e+03 0.
+    1.4838750408630140e+03 5.4575604355309736e+02 0. 0. 1.</data></cameraMatrix>
+<cameraMatrix_std_dev type_id="opencv-matrix">
+  <rows>4</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    2.7797922060338220e+00 2.5347126219228451e+00 1.4347531921491119e+00
+    2.4098988694271779e+00</data></cameraMatrix_std_dev>
+<dist_coeffs type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+    -3.7605833984497877e-01 1.5581204168477583e-01
+    3.4598660249024731e-04 1.6175968423519219e-03
+    -3.8119192525085915e-02</data></dist_coeffs>
+<dist_coeffs_std_dev type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    1.6038856922487446e-03 4.6244222133190712e-03 4.1077986815865982e-04
+    1.1080123740207113e-04 4.7341816696453553e-03</data></dist_coeffs_std_dev>
+<avg_reprojection_error>3.4353188070485624e-01</avg_reprojection_error>
+</opencv_storage>
