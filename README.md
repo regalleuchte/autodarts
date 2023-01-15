@@ -93,3 +93,83 @@ v4l2-ctl --set-ctrl brightness=-8 --device /dev/video2
 
 Natürlich geht noch viel viel mehr. Einfach in Discord ansprechen.
 
+---------------------------------------------------------------------------------------------------------------------------------
+
+Welcome to Nagilo's Autodarts Help!
+Here you will find files and explanations that expand the Autodarts project. The link to the original repositories can be found here.
+
+https://github.com/autodarts
+
+Everything presented here is based on a Debian Stable Bullseye Amd64 installation. This can be installed on any compatible computer, which can be found for a few euros on the bay.
+
+Based on Debian, a fully configured computer can be created. The instructions for this will be created later. Here is now the instructions for the already configured computer.
+
+0. Introduction
+Here, the most important things about Autodarts are explained. If you still need further help, you can contact Nagilo in the Discord channel.
+
+I will explain quickly what can be done. To do this, you (almost) always have to start the Console (Terminal) program first. In the lower left corner, you will find the Application Starter. Under Applications-> System you will find the Console program. Alternatively, you can also type console in the search that opens when you press the Application Starter.
+
+If everything worked, a black window will have opened with the text "player@debian:~$" visible. Now it can start. Below you will find commands that you can enter in the console. It is best to copy them, otherwise you can easily make typos.
+
+If you are asked for a password - the password is autodarts!
+
+1. Autodarts
+Autodarts always runs automatically, so you don't need a monitor or anything else. This is the ideal state. So it's best if you don't see this. If you do, here's what you can do.
+
+1.1 Stopping Autodarts
+
+To stop Autodarts, use the following command
+
+systemctl stop autodarts.service
+
+1.2 Starting Autodarts in the background
+
+To start Autodarts so that the service runs in the background, use the following command
+
+systemctl restart autodarts.service
+
+1.2 Starting Autodarts in the foreground
+
+If you have stopped Autodarts before, you can also start the system in the foreground. This is helpful if you want to see the output of Autodarts. The command is simply autodarts. If you want to end Autodarts in the foreground, press +c .
+
+autodarts
+
+2. Configuration
+The configuration of Autodarts is located in the .autodarts directory. Attention the first dot is important, this is a hidden directory.
+
+2.1 Opening and editing the configuration file
+
+If you want to edit your Board-ID and your key, it is best to use a file manager. This can also be done on the console, but with graphics it's easier. To start the file manager in the correct directory, type the following command on the console. A window will open where you can see all the files that are currently in your configuration directory. If you click on one of the files (only once !!!) then an editor will open and you can customize everything. Later, the file for camera calibration will also land in this directory if necessary.
+
+dolphin .autodarts
+
+3. Teamviewer as direct help from Extern
+Yes, there is also the possibility of getting direct external help. Teamviewer is pre-installed. In the Application Starter, you will find the TeamViewer program under Internet. Contact will be made via discord.
+
+4. Camera calibration
+Everything necessary to calibrate the cameras is also installed on the system. However, Autodarts must first be stopped as described above.
+
+4.1 Taking pictures
+
+First, we switch to the correct directory and then start the program for taking pictures. Then we start taking pictures. Please enter the correct resolution of the cameras. The pictures land in the directory cam-calibration/calibrationImages. The pictures can be seen when you start the file manager Dolphin and switch to the directory.
+
+cd cam-calibration python3 main.
+
+5. Viewing and adjusting cameras
+If you want to adjust the cameras, you can do it. Stop autodarts and then enter the following on the console. The three cameras have the numbers 0, 2 and 4 with me, but it can be different for you. Stop again with +c.
+
+guvcview -d /dev/video4
+
+5.1 Permanently apply settings
+
+To permanently apply the camera settings, there is a rule that starts a script whenever a camera is added. These scripts are located in the .autodarts directory and are named setup_video0, setup_video2, etc. There is one for each camera. The script must be executable.
+
+chmod a+x /home/player/.autodarts/setup_video*
+
+The script contains the following lines. The first line indicates that it is a script and the second line sends a message to the system log. The following lines set the camera settings. These must be adapted to your own camera.
+
+#!/bin/bash logger "autodarts running camera configuration for device video2" v4l2-ctl --set-ctrl brightness=-8 --device /dev/video2
+
+6. More?
+Of course, there is still much more. Just ask in Discord.
+
