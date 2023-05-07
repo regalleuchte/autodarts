@@ -18,10 +18,10 @@ sudo apt-get install curl guvcview v4l-utils htop openssh-server
 
 ## Add the current user to the video group to be able to access the cameras
 
-The cameras by default are not readable by everyone. So you need to add the user running autodarts to the group video.
+The cameras by default are not readable by everyone. So you need to add the user running autodarts to the group video. You can also replace $USER with your selected user name.
 
 `
-sudo addgroup user video
+sudo addgroup $USER video
 `
 
 ## Disable the graphical login and an annoying service
