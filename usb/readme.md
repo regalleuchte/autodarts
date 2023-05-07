@@ -22,8 +22,12 @@ You can monitor the amount of traffic currently running in your setup. First you
 
 `
 sudo modprobe usbmon
+`
+
+`
 usbtop
 `
+
 You should see an output similar to this.
 
 ![usb traffic](usbtop.png)
