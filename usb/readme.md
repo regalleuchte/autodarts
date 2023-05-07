@@ -73,23 +73,33 @@ nano ~/.autodarts/cams.sh
 
 The file contains multiple lines which are identical to the one shown before.
 
-`
-v4l2-ctl --device /dev/video0 --set-ctrl auto_exposure=1
-v4l2-ctl --device /dev/video0 --set-ctrl white_balance_automatic=0
-v4l2-ctl --device /dev/video0 --set-ctrl gain=0
-v4l2-ctl --device /dev/video0 --set-ctrl brightness=4
 
-v4l2-ctl --device /dev/video2 --set-ctrl auto_exposure=1
-v4l2-ctl --device /dev/video2 --set-ctrl white_balance_automatic=0
-v4l2-ctl --device /dev/video2 --set-ctrl gain=0
-v4l2-ctl --device /dev/video2 --set-ctrl brightness=4
+`#!/bin/bash`
 
-v4l2-ctl --device /dev/video4 --set-ctrl auto_exposure=1
-v4l2-ctl --device /dev/video4 --set-ctrl white_balance_automatic=0
-v4l2-ctl --device /dev/video4 --set-ctrl gain=0
-v4l2-ctl --device /dev/video4 --set-ctrl brightness=4
+`v4l2-ctl --device /dev/video0 --set-ctrl auto_exposure=1`
 
-`
+`v4l2-ctl --device /dev/video0 --set-ctrl white_balance_automatic=0`
+
+`v4l2-ctl --device /dev/video0 --set-ctrl gain=0`
+
+`v4l2-ctl --device /dev/video0 --set-ctrl brightness=4`
+
+`v4l2-ctl --device /dev/video2 --set-ctrl auto_exposure=1`
+
+`v4l2-ctl --device /dev/video2 --set-ctrl white_balance_automatic=0`
+
+`v4l2-ctl --device /dev/video2 --set-ctrl gain=0`
+
+`v4l2-ctl --device /dev/video2 --set-ctrl brightness=4`
+
+`v4l2-ctl --device /dev/video4 --set-ctrl auto_exposure=1`
+
+`v4l2-ctl --device /dev/video4 --set-ctrl white_balance_automatic=0`
+
+`v4l2-ctl --device /dev/video4 --set-ctrl gain=0`
+
+`v4l2-ctl --device /dev/video4 --set-ctrl brightness=4`
+
 
 ## Making camera device names consistent
 
