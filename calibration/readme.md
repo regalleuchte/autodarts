@@ -25,14 +25,23 @@ This short list shows the calibration image size as well as the horizontal and v
                   victure_sc30  1037.7980  1037.4769       1920       1080      85.54      54.99 
                  xlayer_fullhd  1725.1031  1725.8725       1920       1080      58.19      34.75
 
-# Default Setting images
+# Overview images
 
 As quick impression here is an overview of the cameras with hardware default settings. The images are captured in similar but not identical conditions. They are illuminated by a Target Corona.
 
-<figure>
-  <img src="./elp_mi5100+l100_000/manual.jpg" alt="image" width="300" height="auto">
-  <figcaption>elp_mi5100+l100_000</figcaption>
-</figure>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Example Image</th>
+    <th>Camera Image</th>
+  </tr>
+  <tr>
+    <td>elp_mi5100+l100_000</td>
+    <td><img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="auto" height="240"></td>
+    <td><img src="./elp_mi5100+l100_000/front.jpg" alt="image" width="auto" height="240"></td>
+  </tr>
+</table>
+
 
 
 
