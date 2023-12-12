@@ -1,10 +1,10 @@
 # Camera calibration
 
-This directory contains all calibration information for all cameras. The pdf in the main directory contains a computation of the field of view in horizontal and vertical direction derived from the calibration data.
-
-All calibration has been generated with the opencv interactive calibration tool.
+This directory contains all calibration information for all cameras. All calibration has been generated with the opencv interactive calibration tool.
 
 # Camera short overview list
+
+This short list shows the calibration image size as well as the horizontal and vertical field of view of the corresponding camera. The field fx and fy are the focal lenght in both directions. 
 
                                    fx(px)     fy(px)      w(px)      h(px)  hfov(deg)  vfov(deg)
                        asus_c3  1045.0708  1044.9687       1920       1080      85.14      54.66 
@@ -24,6 +24,16 @@ All calibration has been generated with the opencv interactive calibration tool.
                 unknown_ov9732   729.4472   731.1125       1280        720      82.53      52.43 
                   victure_sc30  1037.7980  1037.4769       1920       1080      85.54      54.99 
                  xlayer_fullhd  1725.1031  1725.8725       1920       1080      58.19      34.75
+
+# Default Setting images
+
+As quick impression here is an overview of the cameras with hardware default settings. The images are captured in similar but not identical conditions. They are illuminated by a Target Corona.
+
+<figure>
+  <img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="300" height="auto">
+  <figcaption>elp_mi5100+l100_000</figcaption>
+</figure>
+
 
 
 
