@@ -30,9 +30,10 @@ This short list shows the calibration image size as well as the horizontal and v
 As quick impression here is an overview of the cameras with hardware default settings. The images are captured in similar but not identical conditions. They are illuminated by a Target Corona.
 
 <figure>
-  <img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="300" height="auto">
+  <img src="./elp_mi5100+l100_000/manual.jpg" alt="image" width="300" height="auto">
   <figcaption>elp_mi5100+l100_000</figcaption>
 </figure>
+
 
 
 
