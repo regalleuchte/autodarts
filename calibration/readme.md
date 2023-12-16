@@ -35,27 +35,32 @@ As quick impression here is an overview of the cameras with hardware default set
 <table>
   <tr>
     <th>Name</th>
-    <th>Example Image</th>
+    <th>Automatic Image</th>
+    <th>Manual Image</th>
     <th>Camera Image</th>
   </tr>
   <tr>
     <td>elp_mi5100+l100_000<br>recommended<br>15fps at max resolution</td>
-    <td><img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="auto" height="240"></td>
-    <td><img src="./elp_mi5100+l100_000/front.jpg" alt="image" width="auto" height="240"></td>
+    <td><img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_mi5100+l100_000/manual.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_mi5100+l100_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
   <tr>
     <td>hbv_ov2710_000<br>not recommended<br>manual mode not working</td>
-    <td><img src="./hbv_ov2710_000/auto.jpg" alt="image" width="auto" height="240"></td>
-    <td><img src="./hbv_ov2710_000/front.jpg" alt="image" width="auto" height="240"></td>
+    <td><img src="./hbv_ov2710_000/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./hbv_ov2710_000/manual.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./hbv_ov2710_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
   <tr>
     <td>elp_imx323+l297_000<br>recommended</td>
-    <td><img src="./elp_imx323+l297_000/auto.jpg" alt="image" width="auto" height="240"></td>
+    <td><img src="./elp_imx323+l297_000/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_imx323+l297_000/manual.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./elp_imx323+l297_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
   <tr>
     <td>hbv_ov9726_000<br>recommended</td>
-    <td><img src="./hbv_ov9726_000/auto.jpg" alt="image" width="auto" height="240"></td>
+    <td><img src="./hbv_ov9726_000/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./hbv_ov9726_000/manual.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./hbv_ov9726_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
 </table>
