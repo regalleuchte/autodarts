@@ -10,6 +10,7 @@ This short list shows the calibration image size as well as the horizontal and v
                        asus_c3  1045.0708  1044.9687       1920       1080      85.14      54.66 
                   aukey_pclm1e   978.6417   979.3902       1920       1080      88.90      57.74 
          conceptronic_amdis01B  1488.0650  1483.8750       1920       1080      65.65      39.99 
+               elp_imx323+l297   612.4551   612.4551        800        600      66.30      52.19 
                     elp_mi5100  1443.5338  1452.2412       1920       1080      67.25      40.79 
                elp_mi5100+l100  1406.2382  1406.2382       2592       1944      85.33      69.30 
                      hama_c400  1491.5200  1491.8889       1920       1080      65.53      39.80 
@@ -24,7 +25,7 @@ This short list shows the calibration image size as well as the horizontal and v
                   trust_hd720p  1124.4064  1125.3102       1280        720      59.30      35.48 
                 unknown_ov9732   729.4472   731.1125       1280        720      82.53      52.43 
                   victure_sc30  1037.7980  1037.4769       1920       1080      85.54      54.99 
-                 xlayer_fullhd  1725.1031  1725.8725       1920       1080      58.19      34.75 
+                 xlayer_fullhd  1725.1031  1725.8725       1920       1080      58.19      34.75
 
 # Overview images
 
@@ -37,14 +38,19 @@ As quick impression here is an overview of the cameras with hardware default set
     <th>Camera Image</th>
   </tr>
   <tr>
-    <td>elp_mi5100+l100_000<br>high resolution<br>recommended</td>
+    <td>elp_mi5100+l100_000<br>recommended</td>
     <td><img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="auto" height="240"></td>
     <td><img src="./elp_mi5100+l100_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
   <tr>
-    <td>hbv_ov2710_000<br>no manual mode possible<br>not recommended</td>
+    <td>hbv_ov2710_000<br>not recommended</td>
     <td><img src="./hbv_ov2710_000/auto.jpg" alt="image" width="auto" height="240"></td>
     <td><img src="./hbv_ov2710_000/front.jpg" alt="image" width="auto" height="240"></td>
+  </tr>
+  <tr>
+    <td>elp_imx323+l297_000<br>not recommended</td>
+    <td><img src="./elp_imx323+l297_000/auto.jpg" alt="image" width="auto" height="240"></td>
+    <td><img src="./elp_imx323+l297_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
 </table>
 
