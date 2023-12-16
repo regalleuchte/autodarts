@@ -37,12 +37,12 @@ As quick impression here is an overview of the cameras with hardware default set
     <th>Camera Image</th>
   </tr>
   <tr>
-    <td>elp_mi5100+l100_000</td>
+    <td>elp_mi5100+l100_000<br>high resolution<br>recommended</td>
     <td><img src="./elp_mi5100+l100_000/auto.jpg" alt="image" width="auto" height="240"></td>
     <td><img src="./elp_mi5100+l100_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
   <tr>
-    <td>hbv_ov2710_000\n no manual mode possible</td>
+    <td>hbv_ov2710_000<br>no manual mode possible<br>not recommended</td>
     <td><img src="./hbv_ov2710_000/auto.jpg" alt="image" width="auto" height="240"></td>
     <td><img src="./hbv_ov2710_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
