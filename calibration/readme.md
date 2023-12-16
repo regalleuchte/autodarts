@@ -48,7 +48,7 @@ As quick impression here is an overview of the cameras with hardware default set
     <td><img src="./hbv_ov2710_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
   <tr>
-    <td>elp_imx323+l297_000<br>not recommended</td>
+    <td>elp_imx323+l297_000<br>recommended</td>
     <td><img src="./elp_imx323+l297_000/auto.jpg" alt="image" width="auto" height="240"></td>
     <td><img src="./elp_imx323+l297_000/front.jpg" alt="image" width="auto" height="240"></td>
   </tr>
