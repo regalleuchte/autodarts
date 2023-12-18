@@ -74,7 +74,7 @@ As quick impression here is an overview of the cameras with hardware default set
   </tr>
   <tr>
     <td>elp_ov2710+h100_000<br>recommended</td>
-    <td><img src="./elp_ov2710+h100_000+l297/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_ov2710+h100_000/auto.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./elp_ov2710+h100_000/manual.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./elp_ov2710+h100_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
