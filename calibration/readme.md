@@ -78,6 +78,12 @@ As quick impression here is an overview of the cameras with hardware default set
     <td><img src="./elp_ov2710+h100_000/manual.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./elp_ov2710+h100_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
+  <tr>
+    <td>trust_hd720p_000<br>recommended</td>
+    <td><img src="./trust_hd720p_000/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./trust_hd720p_000/manual.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./trust_hd720p_000/front.jpg" alt="image" width="auto" height="120"></td>
+  </tr>
 </table>
 
 
