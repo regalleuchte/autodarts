@@ -13,6 +13,7 @@ This short list shows the calibration image size as well as the horizontal and v
                elp_imx323+l297   612.4551   612.4551        800        600      66.30      52.19 
                     elp_mi5100  1443.5338  1452.2412       1920       1080      67.25      40.79 
                elp_mi5100+l100  1406.2382  1406.2382       2592       1944      85.33      69.30 
+               elp_ov2710+h100   878.8000   878.8000       1920       1080      95.06      63.14 
                elp_ov2710+l297   940.5104   940.5104       1920       1080      91.18      59.73 
                      hama_c400  1491.5200  1491.8889       1920       1080      65.53      39.80 
                     hbv_ov2710   512.8428   512.8428        640        480      63.93      50.16 
@@ -70,6 +71,12 @@ As quick impression here is an overview of the cameras with hardware default set
     <td><img src="./elp_ov2710+l297_000/auto.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./elp_ov2710+l297_000/manual.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./elp_ov2710+l297_000/front.jpg" alt="image" width="auto" height="120"></td>
+  </tr>
+  <tr>
+    <td>elp_ov2710+h100_000<br>recommended</td>
+    <td><img src="./elp_ov2710+h100_000+l297/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_ov2710+h100_000/manual.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_ov2710+h100_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
 </table>
 
