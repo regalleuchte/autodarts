@@ -13,6 +13,7 @@ This short list shows the calibration image size as well as the horizontal and v
                elp_imx323+l297   612.4551   612.4551        800        600      66.30      52.19 
                     elp_mi5100  1443.5338  1452.2412       1920       1080      67.25      40.79 
                elp_mi5100+l100  1406.2382  1406.2382       2592       1944      85.33      69.30 
+               elp_ov2710+l297   940.5104   940.5104       1920       1080      91.18      59.73 
                      hama_c400  1491.5200  1491.8889       1920       1080      65.53      39.80 
                     hbv_ov2710   512.8428   512.8428        640        480      63.93      50.16 
                     hbv_ov9726  1006.2060  1006.2060       1280        800      64.92      43.36 
@@ -26,7 +27,8 @@ This short list shows the calibration image size as well as the horizontal and v
                   trust_hd720p  1124.4064  1125.3102       1280        720      59.30      35.48 
                 unknown_ov9732   729.4472   731.1125       1280        720      82.53      52.43 
                   victure_sc30  1037.7980  1037.4769       1920       1080      85.54      54.99 
-                 xlayer_fullhd  1725.1031  1725.8725       1920       1080      58.19      34.75
+                 xlayer_fullhd  1725.1031  1725.8725       1920       1080      58.19      34.75 
+
 
 # Overview images
 
@@ -62,6 +64,12 @@ As quick impression here is an overview of the cameras with hardware default set
     <td><img src="./hbv_ov9726_000/auto.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./hbv_ov9726_000/manual.jpg" alt="image" width="auto" height="120"></td>
     <td><img src="./hbv_ov9726_000/front.jpg" alt="image" width="auto" height="120"></td>
+  </tr>
+  <tr>
+    <td>elp_ov2710+l297_000<br>recommended</td>
+    <td><img src="./elp_ov2710+l297_000+l297/auto.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_ov2710+l297_000/manual.jpg" alt="image" width="auto" height="120"></td>
+    <td><img src="./elp_ov2710+l297_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
 </table>
 
