@@ -51,7 +51,7 @@ As quick impression here is an overview of the cameras with hardware default set
   <tr>
     <td>hbv_ov2710_000<br>not recommended<br>manual mode not working</td>
     <td><img src="./hbv_ov2710_000/auto.jpg" alt="image" width="auto" height="120"></td>
-    <td><img src="./hbv_ov2710_000/manual.jpg" alt="image" width="auto" height="120"></td>
+    <td><!--img src="./hbv_ov2710_000/manual.jpg" alt="image" width="auto" height="120"--></td>
     <td><img src="./hbv_ov2710_000/front.jpg" alt="image" width="auto" height="120"></td>
   </tr>
   <tr>
