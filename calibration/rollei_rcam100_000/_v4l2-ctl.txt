@@ -1,0 +1,78 @@
+Driver Info:
+	Driver name      : uvcvideo
+	Card type        : webcam: HD 2MP WEBCAM
+	Bus info         : usb-0000:00:1a.0-1.4
+	Driver version   : 6.5.13
+	Capabilities     : 0x84a00001
+		Video Capture
+		Metadata Capture
+		Streaming
+		Extended Pix Format
+		Device Capabilities
+	Device Caps      : 0x04200001
+		Video Capture
+		Streaming
+		Extended Pix Format
+Media Driver Info:
+	Driver name      : uvcvideo
+	Model            : webcam: HD 2MP WEBCAM
+	Serial           : AN20200825001
+	Bus info         : usb-0000:00:1a.0-1.4
+	Media version    : 6.5.13
+	Hardware revision: 0x00000010 (16)
+	Driver version   : 6.5.13
+Interface Info:
+	ID               : 0x03000002
+	Type             : V4L Video
+Entity Info:
+	ID               : 0x00000001 (1)
+	Name             : webcam: HD 2MP WEBCAM
+	Function         : V4L2 I/O
+	Flags            : default
+	Pad 0x01000007   : 0: Sink
+	  Link 0x02000010: from remote pad 0x100000a of entity 'Extension 3' (Video Pixel Formatter): Data, Enabled, Immutable
+Priority: 2
+Video input : 0 (Camera 1: ok)
+Format Video Capture:
+	Width/Height      : 1280/720
+	Pixel Format      : 'YUYV' (YUYV 4:2:2)
+	Field             : None
+	Bytes per Line    : 2560
+	Size Image        : 1843200
+	Colorspace        : sRGB
+	Transfer Function : Rec. 709
+	YCbCr/HSV Encoding: ITU-R 601
+	Quantization      : Default (maps to Limited Range)
+	Flags             : 
+Crop Capability Video Capture:
+	Bounds      : Left 0, Top 0, Width 1280, Height 720
+	Default     : Left 0, Top 0, Width 1280, Height 720
+	Pixel Aspect: 1/1
+Selection Video Capture: crop_default, Left 0, Top 0, Width 1280, Height 720, Flags: 
+Selection Video Capture: crop_bounds, Left 0, Top 0, Width 1280, Height 720, Flags: 
+Streaming Parameters Video Capture:
+	Capabilities     : timeperframe
+	Frames per second: 30.000 (30/1)
+	Read buffers     : 0
+
+User Controls
+
+                     brightness 0x00980900 (int)    : min=1 max=255 step=1 default=128 value=128
+                       contrast 0x00980901 (int)    : min=1 max=255 step=1 default=128 value=128
+                     saturation 0x00980902 (int)    : min=1 max=255 step=1 default=128 value=128
+        white_balance_automatic 0x0098090c (bool)   : default=1 value=1
+                           gain 0x00980913 (int)    : min=1 max=100 step=1 default=50 value=50
+           power_line_frequency 0x00980918 (menu)   : min=0 max=2 default=1 value=1 (50 Hz)
+				0: Disabled
+				1: 50 Hz
+				2: 60 Hz
+      white_balance_temperature 0x0098091a (int)    : min=2800 max=6500 step=1 default=4650 value=4650 flags=inactive
+                      sharpness 0x0098091b (int)    : min=1 max=255 step=1 default=128 value=128
+
+Camera Controls
+
+                  auto_exposure 0x009a0901 (menu)   : min=0 max=3 default=0 value=0 (Auto Mode)
+				0: Auto Mode
+				2: Shutter Priority Mode
+         exposure_time_absolute 0x009a0902 (int)    : min=5 max=2500 step=1 default=5 value=5 flags=inactive
+     exposure_dynamic_framerate 0x009a0903 (bool)   : default=0 value=0
