@@ -24,6 +24,7 @@ This short list shows the calibration image size as well as the horizontal and v
                  logitech_c920  1443.3697  1443.7168       1920       1080      67.26      41.02 
       logitech_quickcampro9000  1332.5822  1341.9257       1600       1200      61.96      48.18 
                    rapoo_xw170   691.2141   692.4286        640        480      49.68      38.23 
+                rollei_rcam100  1585.9170  1585.9170       1920       1080      62.38      37.61 
                 rollei_rcam100   976.9122   976.9122       1280        720      66.46      40.46 
                   trust_fullhd  1881.7104  1881.7875       1920       1080      54.06      32.02 
                    trust_trino  1124.4064  1125.3102       1280        720      59.30      35.48 
